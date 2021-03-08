@@ -1,5 +1,5 @@
 @extends ('layout.master')
-@section ('title'.'Oqury Studio - Web Design and Development')
+@section ('title','Web Design and Development')
 
 @section ('content')
     <div class="flex flex-col mx-auto w-1/2 mt-32">
