@@ -718,3 +718,8 @@ hr.hr-footer-2-3 {
     padding-bottom: 3rem;
   }
 }
+@media (min-width: 320px ){
+  .tombol-web{
+    text-align: center;
+  }
+}
