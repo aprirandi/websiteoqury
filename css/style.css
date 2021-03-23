@@ -6,7 +6,6 @@
     margin-right: auto;
     margin-bottom: auto;
     margin-left: auto;
-    height: 45px;
 }
 
 .mr-2 {
@@ -507,14 +506,14 @@
 }
 .price-title-content-3-7 {
   color: #141c2e;
-  font-size: 1.15rem;
+  font-size: 1rem;
   line-height: 1.75rem;
   letter-spacing: 0.025em;
   font-weight: 500;
   margin-bottom: 0.75rem;
 }
 .price-value-content-3-7 {
-  font-size: 1.45rem;
+  font-size: 1.10rem;
   line-height: 2.5rem;
   letter-spacing: 0.025em;
   margin-bottom: 0.75rem;
@@ -721,9 +720,5 @@ hr.hr-footer-2-3 {
 @media (min-width: 320px ){
   .tombol-web{
     text-align: center;
-  }
-  .price-title-content-3-7{
-    margin-bottom: 5rem;
-
   }
 }
