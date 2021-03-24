@@ -92,17 +92,15 @@
       </div>
 
       <div class="div-button-header-2-3 d-inline d-lg-flex align-items-center mx-lg-0 mx-auto justify-content-center tombol-web">
-        <div>
           <div class="tab">
-            <button class="btn center-block btn-try-header-2-3 btn-outline-header-2-3 tablinks" onclick="openCity(event, 'web development')">Web development</button>
-            <button class="btn  center-block btn-try-header-2-3 btn-outline-header-2-3 tablinks" onclick="openCity(event, 'ui/ux design')">
+            <button class="btn center-block btn-try-header-2-3 btn-outline-header-2-3 tablinks" onclick="openCity(event, 'web development')" id="defaultOpen" >Web development</button>
+            <button class="btn center-block btn-try-header-2-3 btn-outline-header-2-3 tablinks" onclick="openCity(event, 'ui/ux design')">
               <div class="d-flex align-items-center">                               
                 UI/UX Design
               </div>
             </button>
           </div>
-        </div>
-        </div>
+      </div>
   
         <div id="web development" class="tabcontent">
           <div class="container">
@@ -635,6 +633,10 @@
             evt.currentTarget.className += " active";
           }
           </script>
+          <script>
+            // Get the element with id="defaultOpen" and click on it
+            document.getElementById("defaultOpen").click();
+            </script>
 </body>
 
 </html>
