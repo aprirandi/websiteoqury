@@ -740,8 +740,8 @@ hr.hr-footer-2-3 {
 }
 
 .tab button.active{
-  background-color: #ffffff;
-  color: #0269CC;
+  background-color: #0269CC;
+  color: #ffffff;
 }
 
 .tabcontent {
