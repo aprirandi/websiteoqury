@@ -1,6 +1,6 @@
 <html>
 <head>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css_FAQ/style.css">
     <title>Document</title>
 </head>
 <body>
