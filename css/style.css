@@ -755,7 +755,7 @@ hr.hr-footer-2-3 {
   .tombol-web{
     text-align: center;
   }
-}
+
 
 /* Style the tab links */
 .tab {
@@ -774,7 +774,7 @@ hr.hr-footer-2-3 {
 }
 
 .tab button.active{
-  background-color: #0269CC;
+  background-color: #524eee;
   color: #ffffff;
 }
 
@@ -782,3 +782,42 @@ hr.hr-footer-2-3 {
   display: none;
   padding: 6px 12px;
 }
+<<<<<<< HEAD
+ 
+ 
+}
+=======
+
+/* FAQ */
+.a{
+  text-decoration: none;
+  color: rgb(91, 203, 173);
+}
+
+.list{
+  
+  display: inline;
+  padding: 10px;
+  font-weight: 500;
+  border-bottom: 10;
+}
+
+.list:hover{
+  word-spacing: 2px;
+  text-decoration: underline;
+}
+
+table{
+  background-color: #4c4c6d;
+  width: 70%;
+  border-radius: 30px;
+}
+.center{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tbl{
+  padding: 10px;
+}
+>>>>>>> 5987c0110bf9361605021ff90ac2655aca3b32c6
