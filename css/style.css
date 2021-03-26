@@ -734,7 +734,7 @@ hr.hr-footer-2-3 {
   .tombol-web{
     text-align: center;
   }
-}
+
 
 /* Style the tab links */
 .tab {
@@ -760,4 +760,7 @@ hr.hr-footer-2-3 {
 .tabcontent {
   display: none;
   padding: 6px 12px;
+}
+ 
+ 
 }
