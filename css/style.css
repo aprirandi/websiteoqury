@@ -761,3 +761,36 @@ hr.hr-footer-2-3 {
   display: none;
   padding: 6px 12px;
 }
+
+/* FAQ */
+.a{
+  text-decoration: none;
+  color: rgb(91, 203, 173);
+}
+
+.list{
+  
+  display: inline;
+  padding: 10px;
+  font-weight: 500;
+  border-bottom: 10;
+}
+
+.list:hover{
+  word-spacing: 2px;
+  text-decoration: underline;
+}
+
+table{
+  background-color: #4c4c6d;
+  width: 70%;
+  border-radius: 30px;
+}
+.center{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tbl{
+  padding: 10px;
+}
