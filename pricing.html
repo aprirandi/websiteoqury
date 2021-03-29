@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oqury Studio - Pricing</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="shortcut icon" href="img/logo.svg">
@@ -91,7 +92,7 @@
     <section style="height: 100%; width: 100%; box-sizing: border-box; background-color: #141432">
       <div class="main-content-3-7 overflow-hidden grid-padding-content-2-3" style="font-family: 'Poppins', sans-serif;">
       <div class="container mx-auto">
-      <div class="d-flex flex-column text-center w-100" style="margin-bottom: 2.25rem;">
+      <div class="d-flex flex-column text-center w-100" style="margin-bottom: 2.25rem;" data-aos="zoom-out-up" data-aos-duration="2000">
       <h2 class="title-text-content-3-7">Submission of Prices <br>
         From us for Maximum Results</h2>
       <p class="caption-text-content-3-7 mx-auto" style="font-size: 20px;">To make a custom system, we try to fit your budget, please contact us
@@ -99,14 +100,14 @@
       </div>
 
       <div class="div-button-header-2-3 d-inline d-lg-flex align-items-center mx-lg-0 mx-auto justify-content-center tombol-web">
-          <div class="tab">
+          <div class="tab" data-aos="zoom-out" data-aos-duration="2000">
             <button class="btn center-block btn-try-header-2-3 btn-outline-header-2-3 tablinks" onclick="openCity(event, 'web development')" id="defaultOpen">Web Development</button>
             <button class="btn center-block btn-try-header-2-3 btn-outline-header-2-3 tablinks" onclick="openCity(event, 'ui/ux design')">UI/UX Design</button>
             <button class="btn center-block btn-try-header-2-3 btn-outline-header-2-3 tablinks" onclick="openCity(event, 'landing page')">Landing Page</button>
           </div>
       </div>
   
-        <div id="web development" class="tabcontent">
+        <div id="web development" class="tabcontent" data-aos="zoom-out-down" data-aos-duration="2000">
           <div class="container">
             <div class="d-flex flex-wrap">
               <div class="mx-auto card-content-3-7">
@@ -316,7 +317,7 @@
         </div>
       </div>
       
-      <div id="ui/ux design" class="tabcontent">
+      <div id="ui/ux design" class="tabcontent" data-aos="zoom-out-down" data-aos-duration="2000">
         <div class="container">
              <div class="d-flex flex-wrap">
                <div class="mx-auto card-content-3-7">
@@ -490,7 +491,7 @@
         </div>
       </div>
       
-      <div id="landing page" class="tabcontent">
+      <div id="landing page" class="tabcontent" data-aos="zoom-out-down" data-aos-duration="2000">
         <div class="container">
              <div class="d-flex flex-wrap">
                <div class="mx-auto card-content-3-7">
@@ -628,7 +629,7 @@
 <section style="height: 100%; width: 100%; box-sizing: border-box; background-color: #141432">
   <div class="main-content-3-7 overflow-hidden grid-padding-content-2-3" style="font-family: 'Poppins', sans-serif;">
   <div class="container mx-auto">
-  <div class="d-flex flex-column text-center w-100" style="margin-bottom: 2.25rem;">
+  <div class="d-flex flex-column text-center w-100" style="margin-bottom: 2.25rem;" data-aos="zoom-in" data-aos-duration="2000">
   <h2 class="title-text-content-3-7">Our Customers are our biggest fans</h2>
   <p class="caption-text-content-3-7 mx-auto" style="font-size: 20px;">We have helped startups around the globe as well as fortune 500 companies</p>
   </div>
@@ -637,7 +638,7 @@
     <div class="row pt-4">
       <div class="col">
         <div class="client">
-          <div class="row Logo-Partner float-xl-end">
+          <div class="row Logo-Partner" data-aos="zoom-in-up" data-aos-duration="2000">
             <div class="col mb-3 ml-2 mr-2 text-center">
               <div class="logo-hover">
                 <img src="img/Client/rintarajaya.svg" style="height: 200px; width: 100px;">
@@ -734,7 +735,11 @@
           <script>
             // Get the element with id="defaultOpen" and click on it
             document.getElementById("defaultOpen").click();
-            </script>
+          </script>
+          <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+          <script>
+            AOS.init();
+          </script>
 </body>
 
 </html>
