@@ -800,9 +800,9 @@ hr.hr-footer-2-3 {
 .accordion-link{
   font-size: 1.6rem;
   font-weight: 500;
-  color: #0269CC;
+  color: white;
   text-decoration: none;
-  background-color: rgb(231, 231, 231);
+  background-color: #243F65;
   width: 100%;
   display: flex;
   align-items: center;
@@ -811,7 +811,7 @@ hr.hr-footer-2-3 {
 }
 
 .accordion-link i{
-  color: #524eee;
+  color: rgb(0, 199, 123);
   padding: .5rem;
 }
 
@@ -823,7 +823,7 @@ hr.hr-footer-2-3 {
   max-height: 0;
   overflow: hidden;
   position: relative;
-  background-color: rgb(53, 53, 53);
+  background-color: #292938;
   transition:650ms;
 }
 
@@ -832,7 +832,7 @@ hr.hr-footer-2-3 {
   position: absolute;
   width: .6rem;
   height: 90%;
-  background-color: #524eee;
+  background-color: teal;
   top: 50%;
   left: 0;
   transform: translateY(-50%);
