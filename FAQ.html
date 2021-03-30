@@ -5,11 +5,12 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>Oqury Studio - Website Design and Development</title>
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css">
       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
       <link rel="stylesheet" href="css/style.css">
       <link rel="shortcut icon" href="img/logo.svg">
     </head>
-    <body>
+    <body style="background-color: #141432;">
   <section style="height:100%; width: 100%; box-sizing: border-box; background-color: #141432">
     <div class="header-2-3" style="font-family: 'Poppins', sans-serif;">
     <nav class="navbar navbar-expand-lg navbar-dark">
@@ -81,37 +82,78 @@
 
     
   </section>
-    <header style="text-align: center; padding-top: 2%; background-color: #141432; padding-bottom: 10px;">
-        <h5 style="font-size: 23px; color: white" data-aos="zoom-in" data-aos-duration="2000">FAQ</h5>
-        <h1 style=" color: #cbcbd2; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif" data-aos="zoom-in" data-aos-duration="2000">Have any question?</h1>
-            <ul style="list-style-type: none; display: inline;">
-                <li class="list">
-                    <a href="General.html" class="a" data-aos="zoom-in" data-aos-duration="2000">General</a>
-                </li>
-                <li class="list">
-                    <a href="Payments.html" class="a" data-aos="zoom-in" data-aos-duration="2000">Payment</a>
-                </li>
-                <li class="list">
-                    <a href="Deployment.html" class="a" data-aos="zoom-in" data-aos-duration="2000">Deployment</a>
-                </li>
-                <li class="list">
-                    <a href="Maintenance.html" class="a" data-aos="zoom-in" data-aos-duration="2000">Maintenance</a>
-                </li>
-                <li class="list">
-                    <a href="Training.html" class="a" data-aos="zoom-in" data-aos-duration="2000">Training</a>
-                </li>
-            </ul>
-    </header>
-    <div style="background-color: #141432;">
-      <table class="center" data-aos="zoom-in" data-aos-duration="2000">
-        <tr>
-        <td style="padding: 70px;">
-          <h5 style="text-align: center; font-style: italic; color: grey;">
-            ^^chose one of the menu^^
-          </h5>
-      </table>
+  <header style="text-align: center; padding-top: 2%; background-color: #141432; padding-bottom: 10px;">
+    <h5 style="font-size: 23px; color: white" data-aos="zoom-in" data-aos-duration="2000">FAQ</h5>
+    <h1 style=" color: #cbcbd2; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif" data-aos="zoom-in" data-aos-duration="2000">Have any question?</h1>
+  </header>
+  <section class="sctn">
+    <div class="cntr">
+      <div class="accordion">
+        <div class="accordion-item" id="General" data-aos="zoom-in-right" data-aos-duration="2500">
+          <a class="accordion-link" href="#General" style="padding-left: 10px;">
+            General
+            <i class="icon ion-md-add"></i>
+            <i class="icon ion-md-remove"></i>
+          </a>
+          <div class="answer">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit ea molestiae sapiente illum non maiores corrupti qui perferendis consequuntur ratione dolorum mollitia ipsa et blanditiis error ullam impedit, obcaecati repellendus.
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item" id="Maintenance" data-aos="zoom-in-right" data-aos-duration="2000">
+          <a class="accordion-link" href="#Maintenance" style="padding-left: 10px;">
+            Maintenance
+            <i class="icon ion-md-add"></i>
+            <i class="icon ion-md-remove"></i>
+          </a>
+          <div class="answer">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit ea molestiae sapiente illum non maiores corrupti qui perferendis consequuntur ratione dolorum mollitia ipsa et blanditiis error ullam impedit, obcaecati repellendus.
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item" id="Deployments" data-aos="zoom-in-right" data-aos-duration="1500">
+          <a class="accordion-link" href="#Deployments" style="padding-left: 10px;">
+            Deployments
+            <i class="icon ion-md-add"></i>
+            <i class="icon ion-md-remove"></i>
+          </a>
+          <div class="answer">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit ea molestiae sapiente illum non maiores corrupti qui perferendis consequuntur ratione dolorum mollitia ipsa et blanditiis error ullam impedit, obcaecati repellendus.
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item" id="Payments" data-aos="zoom-in-right" data-aos-duration="500">
+          <a class="accordion-link" href="#Payments" style="padding-left: 10px;">
+            Payments
+            <i class="icon ion-md-add"></i>
+            <i class="icon ion-md-remove"></i>
+          </a>
+          <div class="answer">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit ea molestiae sapiente illum non maiores corrupti qui perferendis consequuntur ratione dolorum mollitia ipsa et blanditiis error ullam impedit, obcaecati repellendus.
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item" id="Training">
+          <a class="accordion-link" href="#Training" style="padding-left: 10px;">
+            Training
+            <i class="ion ion-md-add"></i>
+            <i class="ion ion-md-remove"></i>
+          </a>
+          <div class="answer">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit ea molestiae sapiente illum non maiores corrupti qui perferendis consequuntur ratione dolorum mollitia ipsa et blanditiis error ullam impedit, obcaecati repellendus.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+ 
+  </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>   
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
