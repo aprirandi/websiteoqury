@@ -53,8 +53,8 @@
 @media (min-width: 360px) {
   .foto img {
     max-width: 353px;
-    text-align: center;
-    float: right;
+    align-items: center;
+    float: left;
   }
 }
 
