@@ -908,6 +908,7 @@ hr.hr-footer-2-3 {
 
 .accordion-item:target .answer{
   max-height: 20rem;
+  display: flex;
 }
 
 .accordion-item:target .accordion-link .ion-md-add{
