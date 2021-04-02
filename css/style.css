@@ -838,6 +838,8 @@ hr.hr-footer-2-3 {
   background-color: #141432;
   align-items: center;
   justify-content: center;
+  outline: none;
+  position: fixed absolute;
 }
 
 .cntr{
