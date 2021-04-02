@@ -840,6 +840,7 @@ hr.hr-footer-2-3 {
   justify-content: center;
   outline: none;
   position: fixed absolute;
+  border-bottom: 100px;
 }
 
 .cntr{
